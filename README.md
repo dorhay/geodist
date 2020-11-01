@@ -16,7 +16,7 @@ Then, we project the geometric object from the World Geodetic System (aka: WGS84
 
 The azimuthal equidistant projection is a map projection where all points on the map are at proportionally correct distances from the center.
 
-![HowDoesItWork](docs/images/objective.png)
+![HowDoesItWork](https://github.com/dorhay/geodist/blob/master/docs/images/objective.png)
 
 ## Examples
 
@@ -33,7 +33,7 @@ The distance between a polygon and a POI
 3153.3015428957347
 ```
 
-![Polygon](docs/images/polygon_example.png)
+![Polygon](https://github.com/dorhay/geodist/blob/master/docs/images/polygon_example.png)
 
 ### Circle
 The distance between circles and a POI
@@ -62,7 +62,7 @@ False
 True
 ```
 
-![Circle](docs/images/circle_example.png)
+![Circle](https://github.com/dorhay/geodist/blob/master/docs/images/circle_example.png)
 
 ### Linestring
 The distance between a Linestring and a POI
@@ -76,4 +76,4 @@ The distance between a Linestring and a POI
 39603.30198998547
 ```
 
-![Linestring](docs/images/linestring_example.png)
+![Linestring](https://github.com/dorhay/geodist/blob/master/docs/images/linestring_example.png)

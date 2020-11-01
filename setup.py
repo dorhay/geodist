@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="geodist",
-    version="0.1",
+    version="0.3",
     author="Dor Hay",
     author_email="dorhay@gmail.com",
     description="GeoDist Package",
