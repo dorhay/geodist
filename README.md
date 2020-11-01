@@ -24,6 +24,7 @@ The azimuthal equidistant projection is a map projection where all points on the
 
 The distance between a polygon and a POI
 ```
+>>> from geodist import GeoDist
 >>> coords = [(4.3466824, 50.8584046), (4.3371552, 50.8490306), (4.3429917, 50.8336379), (4.3488282, 50.8330958),
 ...           (4.3658226, 50.8409013), (4.3695992, 50.8473506), (4.3679684, 50.8526612), (4.3466824, 50.8584046)]
 ... 
@@ -37,6 +38,7 @@ The distance between a polygon and a POI
 ### Circle
 The distance between circles and a POI
 ```
+>>> from geodist import GeoDist
 >>> coords = [(-77.120923, 39.056418)]
 >>> lng, lat = -77.145146, 39.047193
 >>> GeoDist(coords, radius=1000).distance(lng, lat)
@@ -65,6 +67,7 @@ True
 ### Linestring
 The distance between a Linestring and a POI
 ```
+>>> from geodist import GeoDist
 >>> coords = [(-121.77919, 36.24285), (-121.77939, 36.24317), (-121.77955, 36.24336), (-121.77967, 36.24347),
           (-121.77977, 36.24358), (-121.78, 36.24378), (-121.78033, 36.24409), (-121.78052, 36.24433),
 ..............]
