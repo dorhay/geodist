@@ -6,7 +6,9 @@ Find the distance between a point of interest and a geometric shape – polygon,
 
 
 ## Install
-
+```
+pip install geodist
+```
 ## How Does It Work?
 First, we convert an array of points (lng, lat) to a planar geometric object.
 
