@@ -9,6 +9,8 @@ setuptools.setup(
     author="Dor Hay",
     author_email="dorhay@gmail.com",
     description="GeoDist Package",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     url="https://github.com/dorhay/geodist",
     packages=setuptools.find_packages(),
     install_requires=["pyproj", "shapely"],
